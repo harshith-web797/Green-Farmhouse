@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Park Farm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">GP <span>Green Park Farm</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Location</a>
+        <a href="#booking">Contact</a>
+      </nav>
+      <a href="#booking" class="btn-primary">Book Now</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-badge">📍 Near Hyderabad ⭐ 4.9</div>
+
+        <h1>
+          Escape to Nature at <br />
+          <span>Green Park Farm House</span>
+        </h1>
+
+        <p>
+          Your perfect retreat for peaceful stays, memorable celebrations, and
+          unforgettable family moments surrounded by lush greenery
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#booking" class="btn-primary">Book Your Stay</a>
+          <button class="btn-outline">Plan Your Event</button>
+        </div>
+
+        <div class="hero-contact">📞 Quick Booking: 098660 79230</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="center">Your Private Escape Near Hyderabad</h2>
+      <div class="about-grid">
+        <div class="about-images">
+          <img
+            src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1599423300746-b62533397364"
+          />
+        </div>
+        <div>
+          <p>
+            Nestled in the serene outskirts of Hyderabad, Green Park Farm House
+            offers a perfect blend of rustic charm and modern comfort.
+          </p>
+          <div class="features">
+            <span>🌿 Natural Serenity</span>
+            <span>👨‍👩‍👧 Family Friendly</span>
+            <span>🎉 Event Ready</span>
+            <span>🏊 Premium Amenities</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section dark">
+      <h2 class="center">What We Offer</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Farm Stay</h3>
+          <p>Comfortable rooms with peaceful nature views.</p>
+        </div>
+        <div class="card">
+          <h3>Birthday Parties</h3>
+          <p>Decoration, catering & music system included.</p>
+        </div>
+        <div class="card">
+          <h3>Private Events</h3>
+          <p>Best venue for weddings & grand celebrations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2 class="center">Explore Our Space</h2>
+      <div class="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1590490360182-c33d57733427"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600047509358-9dc75507daeb"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1613977257363-707ba9348227"
+        />
+      </div>
+    </section>
+
+    <section id="location" class="section light">
+      <h2 class="center">Location & Directions</h2>
+      <div class="location-box">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps?q=Reddypally%20Moinabad%20Hyderabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style="border: 0; border-radius: 15px"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+        <div class="address">
+          <h3>Our Address</h3>
+          <p>Reddypally, Moinabad<br />Hyderabad, Telangana</p>
+          <p>📞 098660 79230</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section">
+      <h2 class="center">Reserve Your Stay</h2>
+      <form class="booking-form">
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone" required />
+        <input type="date" required />
+        <textarea placeholder="Special Requests"></textarea>
+        <button class="btn-primary">Submit Booking</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      © 2026 Green Park Farm House • Designed for Hackathon
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    once: true
+  });
+</script>
+  </body>
+</html>
